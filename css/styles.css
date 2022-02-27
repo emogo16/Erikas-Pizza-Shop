@@ -1,0 +1,41 @@
+.container {
+  text-align: center;
+}
+legend {
+  background-color: rgb(252, 216, 161);
+  color: rgb(0, 0, 0);
+  padding: 3px 6px;
+  font-size: larger;
+}
+
+.output {
+  font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+  margin: .4rem;
+}
+
+
+
+
+
+
+
+
+/* .optionOne {
+  display: flex;
+  /* justify-content: space-around; */
+  /* width: 60%;
+  margin: .5rem;
+  
+} 
+
+/* .optionTwo {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: .5rem;
+  text-align: center;
+} */
+
