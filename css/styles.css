@@ -16,6 +16,25 @@ input {
   margin: .4rem;
 }
 
+.submit {
+  text-align: center;
+}
+
+.button {
+  font-size: 120%;
+  border: 0;
+  line-height: 3;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(252, 216, 161);
+  
+}
+
+
 
 
 
