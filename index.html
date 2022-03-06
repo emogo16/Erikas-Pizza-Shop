@@ -17,98 +17,69 @@
           <fieldset>
             <legend>SIZE</legend>
             <p>How hungry are you? Choose the perfect size for you.</p>
-            <input type="radio" id="small" name="size">
-            <label for="small">Small $9</label><br/>
-            <input type="radio" id="medium" name="size">
+            <input type="radio" id="small" name="size" value="small">
+            <label for="small">Small $9</label> <br/>
+            <input type="radio" id="medium" name="size" value="medium">
             <label for="medium">Medium $10</label><br/>
-            <input type="radio" id="large" name="size">
+            <input type="radio" id="large" name="size" value="large">
             <label for="large">Large $11</label>
           </fieldset>
       </div>
       <br></br>
       <div class="ogPizza">
         <fieldset>
-          <legend>THE OG PIZZA<em> "9</em></legend>
-          <p class="subHead">If it does not say extra next to the topping it is already included in the price please still check the box if you want it if not checked we will not put it.</p>
-          <h2 class="category">Base</h2>
-          <label for="garlicParmesan">Garlic Parmesan Base</label>
-          <input type="checkbox" name="garlicParmesan" id="garlicParmesan">
-          <h2 class="category">Cheese</h2>
-          <label for="parmesan"> Parmesan Asiago</label>
-          <input type="checkbox" name="parmesan" id="parmesan">
-          <!-- </div> -->
-          <h2 class="category">Toppings</h2>
-          <!-- <div class="optionOne">  -->
-          <label for="mushrooms">Mushrooms</label>
-          <input type="checkbox" name="mushrooms" id="mushrooms">
-          <!-- </div> -->
-          <!-- <div class="optionOne"> -->
-          <label for="spinach">Spinach</label>
-          <input type="checkbox" name="spinach" id="spinach">  
-          <!-- </div> -->
-          <!-- <div class="optionOne"> -->
-          <label for="chicken">Chicken(Extra +3)</label>
-          <input type="checkbox" name="chicken" id="garlicParmesan">  
-          <!-- </div> -->
-          <!-- <div class="optionOne"> -->
-          <label for="bacon">Bacon(Extra +3)</label>
-          <input type="checkbox" name="bacon" id="bacon">  
-          <!-- </div> -->
+          <legend>THE OG PIZZA<em> $16</em></legend>
+          <p class="subHead">The OG PIZZA consist of a medium garlic parmesan base, parmesan asiago, topped of with mushrooms, spinach, and italian sauage(can also be vegetarian if you want).</p>
         </fieldset>
       </div>
       
       <br></br>
-
       <div class="makeOwn">
         <fieldset>
         <legend>MAKE UR OWN</legend>
-        <p class="subHead">Choose up to 2 toppings for free (not marked extra, extra will be extra duuuh)</p>
         <h2 class="category">Base</h2>
-        <div class="optionTwo">
           <label for="robustTomato">Robust Tomato Base</label>
-          <input type="checkbox" name="robustTomato" id="robustTomato">
-        </div>
+          <input type="radio" name="base" id="robustTomato" value="robustTomato">
+          <label for="garlicParmesan">Garlic Parmesan Base</label>
+          <input type="radio" name="base" id="garlicParmesan" value="garlicParmesan">
         <h2 class="category">Cheese</h2>
-        <div class="optionTwo"> 
+          <label for="parmesan"> Parmesan Asiago</label>
+          <input type="radio" name="cheese" id="parmesan" value="parmesan">
           <label for="cheese">YES,Cheese it up!</label>
-          <input type="checkbox" name="cheese" id="cheese">
-        </div>
+          <input type="radio" name="cheese" id="cheese" value="cheese">
         <h2 class="category">Toppings</h2>
-        <div class="optionTwo"> 
+          <p>Each topping will be $2 extra</p>
           <label for="pineapple">Pineapple</label>
-          <input type="checkbox" name="pineapple" id="pineapple">
-        </div>
-        <div class="optionTwo"> 
+          <input type="checkbox" name="toppings" id="pineapple" value="pineapple">
           <label for="onion">Onion</label>
-          <input type="checkbox" name="onion" id="onion">
-        </div>
-        <div class="optionTwo"> 
+          <input type="checkbox" name="toppings" id="onion" value="onion">
           <label for="pepper">Green and Read Peppers</label>
-          <input type="checkbox" name="pepper" id="pepper">
-        </div>
-        <div class="optionTwo">
+          <input type="checkbox" name="toppings" id="pepper" value="pepper">
+          <label for="mushrooms">Mushrooms</label>
+          <input type="checkbox" name="toppings" id="mushrooms" value="mushrooms">
+          <label for="spinach">Spinach</label>
+          <input type="checkbox" name="toppings" id="spinach" value="spinach">
+          <label for="bacon">Bacon</label>
+          <input type="checkbox" name="toppings" id="bacon" value="bacon"> 
           <label for="pepperoni">Pepperoni</label>
-          <input type="checkbox" name="pepperoni" id="pepperoni">  
-        </div>
-        <div class="optionTwo">
-          <label for="sausage">Italian Sausage (Extra +3)</label>
-          <input type="checkbox" name="sausage" id="sausage">  
-        </div>
-        <div class="optionTwo">
-          <label for="chicken">Chicken(Extra +3)</label>
-          <input type="checkbox" name="chicken" id="chicken">  
-        </div>
-        <div class="optionTwo">
-          <label for="bacon">Bacon(Extra +3)</label>
-          <input type="checkbox" name="bacon" id="bacon">  
+          <input type="checkbox" name="toppings" id="pepperoni" value="pepperoni">  
+          <label for="sausage">Italian Sausage </label>
+          <input type="checkbox" name="toppings" id="sausage" value="sausage">  
+          <label for="chicken">Chicken</label>
+          <input type="checkbox" name="toppings" id="chicken" value="chicken">  
         </fieldset>  
-        </div>
         <br></br>
       </div>
       <div class="submit">
         <button id="button" class="button" type="submit">All done</button>
       </div>
-    </form> 
+    </form>
+    <div class="pizza-price">
+      <p></p>
+    </div>
+    <div class="pizza-overview">
+      <p></p>
+    </div>
   </div>
 </body>
 </html> 
