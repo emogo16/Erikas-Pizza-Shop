@@ -36,7 +36,6 @@ There are some bugs at the moment.
 
 Describe: Pizza()
 
-<<<<<<< HEAD
 Test#1: "It should return a pizza object with the property for size" 
 Code: const newPizza = new Pizza("small")
 Expected Output= Pizza {size:"small, medium, or large"}
@@ -54,11 +53,12 @@ Code: const newPizza = new Pizza("small", "base", "cheese", "toppings", "price")
 Expected Output= Pizza {size:"small", base:"garlicParmesan" cheese:"parmesan" toppings:"mushrooms" price:"11"}
 
 Describe: calcPrice()
+
 Test#1: "The calcPrice() function should return 9 for a small sized pizza"
 Code: const newPizza.calprice() = new Pizza("small", "garlicParmesan", "parmesan", "mushrooms")
 Expected Output= $11
-=======
-Test: "It should return a pizza object with the property for size and price
+
+Test#2: "It should return a pizza object with the property for size and price
 Code: constmyPizza=("small")
 Expected Output= Pizza {size:"small, medium, or large"}
 
